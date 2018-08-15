@@ -1,3 +1,10 @@
+[![Build Status](https://travis-ci.org/xuegangliu/reactTest.svg?branch=master)](https://github.com/xuegangliu/reactTest)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/xuegangliu/reactTest)
+[![GitHub stars](https://img.shields.io/github/stars/xuegangliu/reactTest.svg?style=social&label=Stars)](https://github.com/xuegangliu/reactTest)
+[![GitHub forks](https://img.shields.io/github/forks/xuegangliu/reactTest.svg?style=social&label=Fork)](https://github.com/xuegangliu/reactTest)
+
+
 ### 前言
 搭一个脚手架真不是一件容易的事，之前为了学习webpack是怎么配置的选择自己搭建开发环境，折腾了好几天总算对入口文件、打包输出、JSX, es6编译成es5、css加载、压缩代码等这些基础的东西有了一个大体的了解。后来有一次组内分享技术，我作死的选择了webpack，为了看起来高大上又去折腾它的按需加载、怎样处理第三方插件、拆分CSS文件、利用Happypack实现多进程打包等等。彻底把自己搞晕了。再后来接手了一个紧急的项目，实在来不及去折腾webpack了，就选择使用react官方推荐的脚手架[create-react-app](https://github.com/facebookincubator/create-react-app)，这个脚手架确实搭的非常完善，几乎不需要我们修改配置，我也研究了一下它的配置，准备从零开始搭建一个react+webpack的开发环境，配置从简单到复杂，由于内容较多，我将分为几篇文章讲述，这是第一篇。
 另外，热更新我单独写成一篇文章了，当你修改一次代码就需要手动启动服务器，然后你烦了的时候，你可以先去把热更新配置好再回来继续：[开始一个React项目(二) 彻底弄懂webpack-dev-server的热更新](http://www.jianshu.com/p/bcad129a1c69)
